@@ -23,7 +23,7 @@ yarn add jsdoc-sourcecode-tag
 
 ## Usage
 
-Add plugin to jsdoc conf.json (http://usejsdoc.org/about-configuring-jsdoc.html)
+Add plugin to jsdoc conf.json http://usejsdoc.org/about-configuring-jsdoc.html
 
 ```json
 {
@@ -43,7 +43,7 @@ In your code
  */
 
 const myFunction = function(num) {
-	// some cool code here
+    // some cool code here
 };
 ```
 
@@ -54,7 +54,7 @@ In your publish theme data you will get `data.sourcecode`
 
 ### tag value 
 
-#### +{number}
+#### `+{number}`
 
 Add lines after ending of documented code
 
@@ -73,7 +73,7 @@ for (let i = 1; i <= knockSeveralTimes; i++) { // 2
 }                                              // 4
 ```
 
-#### |+{number}
+#### `|+{number}`
 
 It remove all lines of documented code and will start count from new line after
 
