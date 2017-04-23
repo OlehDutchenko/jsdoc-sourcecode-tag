@@ -1,0 +1,26 @@
+{
+  "name": "jsdoc-sourcecode-tag",
+  "version": "1.0.0",
+  "description": "add @sourcecode tag",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dutchenkoOleg/jsdoc-sourcecode-tag.git"
+  },
+  "keywords": [
+    "jsdoc",
+    "docs",
+    "source",
+    "code",
+    "plugin"
+  ],
+  "author": "Oleg Dutchenko <dutchenko.o.wezom@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dutchenkoOleg/jsdoc-sourcecode-tag/issues"
+  },
+  "homepage": "https://github.com/dutchenkoOleg/jsdoc-sourcecode-tag#readme"
+}
