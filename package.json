@@ -1,10 +1,11 @@
 {
   "name": "jsdoc-sourcecode-tag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "add @sourcecode tag",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "happiness --verbose | snazzy",
+    "fix": "happiness --verbose --fix | snazzy"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/dutchenkoOleg/jsdoc-sourcecode-tag/issues"
   },
-  "homepage": "https://github.com/dutchenkoOleg/jsdoc-sourcecode-tag#readme"
+  "homepage": "https://github.com/dutchenkoOleg/jsdoc-sourcecode-tag#readme",
+  "devDependencies": {
+    "happiness": "^7.1.2",
+    "snazzy": "^7.0.0"
+  }
 }

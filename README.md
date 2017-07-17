@@ -2,6 +2,9 @@
 
 ![jsdoc3](https://img.shields.io/badge/JSDoc3-plugin-blue.svg)
 ![license](https://img.shields.io/badge/License-MIT-orange.svg)
+[![Build Status](https://travis-ci.org/dutchenkoOleg/jsdoc-sourcecode-tag.svg?branch=master)](https://travis-ci.org/dutchenkoOleg/jsdoc-sourcecode-tag)
+
+[![js happiness style](https://cdn.rawgit.com/JedWatson/happiness/master/badge.svg)](https://github.com/JedWatson/happiness)
 
 ## What is this?
 
@@ -13,12 +16,18 @@ More info about jsdoc and publish theme:
 - http://usejsdoc.org/
 - http://usejsdoc.org/about-plugins.html
 
+---
+
+
 ## Installing
 
 ```shell
 npm install --save jsdoc-sourcecode-tag
 # or using yarn cli
 yarn add jsdoc-sourcecode-tag
+
+---
+
 ```
 
 ## Usage
@@ -87,15 +96,36 @@ for (let i = 1; i <= knockSeveralTimes; i++) {  // 1
 }                                               // 3
 ```
 
+---
+
 ## Tests
 
-Sorry but here no tests yet.
+1. `npm test` for testing js code style and test sorting method
+1. `npm run fix` for automatically fix most of problems with **js code style** 
+
+---
+
+
+## Changelog
+
+Please read [CHANGELOG.md](https://github.com/dutchenkoOleg/jsdoc-sourcecode-tag/blob/master/CHANGELOG.md)
+
+---
+
 
 ## To Do
 
 write tests and more examples
 
+---
+
+## Code of Conduct
+
+Please read [CODE_OF_CONDUCT.md](https://github.com/dutchenkoOleg/jsdoc-sourcecode-tag/blob/master/CODE_OF_CONDUCT.md)
+
 ## Contributing
 
-You're welcome - [issues](https://github.com/dutchenkoOleg/jsdoc-sourcecode-tag/issues) and [pulls](https://github.com/dutchenkoOleg/jsdoc-sourcecode-tag/pulls)
+Please read [CONTRIBUTING.md](https://github.com/dutchenkoOleg/jsdoc-sourcecode-tag/blob/master/CONTRIBUTING.md)
+
+After that - you know what to do -> [issues](https://github.com/dutchenkoOleg/jsdoc-sourcecode-tag/issues) and [pulls](https://github.com/dutchenkoOleg/jsdoc-sourcecode-tag/pulls)
 
