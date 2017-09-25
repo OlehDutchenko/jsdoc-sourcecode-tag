@@ -12,6 +12,15 @@ exports.defineTags = function (dictionary) {
 			var lineno = doclet.meta.lineno;
 
 			var range = doclet.meta.range;
+			if (range === undefined && tag && tag.value) {
+				var val = content.split('\n').slice(doclet.meta.lineno).join('\n');
+				var pos = /\*(\s)?\//.exec(val);
+				if (pos !== null) {
+					var start = content.split('\n').slice(0, doclet.meta.lineno).join('\n').length;
+					var end = val.slice(0, pos.index).length;
+					range = [start, start + end];
+				}
+			}
 			if (!Array.isArray(range)) {
 				return;
 			}

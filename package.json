@@ -1,6 +1,6 @@
 {
   "name": "jsdoc-sourcecode-tag",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "add @sourcecode tag",
   "main": "index.js",
   "scripts": {
